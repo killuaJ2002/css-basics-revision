@@ -343,3 +343,26 @@ button {
     object-fit: cover;
     border-radius: 8px;
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+
+.navbar__info-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.navbar__info-item {
+    list-style: none;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.navbar__info-item:hover {
+    color: #2db14e;
+    cursor: pointer;
+}
