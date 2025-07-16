@@ -366,3 +366,77 @@ button {
     color: #2db14e;
     cursor: pointer;
 }
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    background-color: #eee;
+}
+
+footer{
+    text-align: center;
+    background-color: #eee;
+    border-top: 1px solid #dbdbdb;
+    padding: 15px 0;
+    color: #6e6e6e;
+    font-weight: 300;
+}
+
+.about__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.about__left img {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.about__left button {
+    background-color: #23c93c;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.about__left button:hover{
+    background-color: #5bb471;
+}
+
+.about__left p{
+    font-weight: 300;
+    color: #6e6e6e;
+}
+
+.about__right {
+    display: flex;
+    gap: 50px;
+}
+
+.about__right h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.links__items {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    color: #6e6e6e;
+    font-weight: 300;
+}
+
+.links__item:hover {
+    color: #2db14e;
+    cursor: pointer;
+}
+
+
+
+
